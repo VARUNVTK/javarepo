@@ -19,8 +19,8 @@ public class CalculatorTest {
 	@Test
 	public void testIfSubIsWorkingOrNot() {
 		Calculator c= new Calculator();
-		int result=c.sub(10, 20);
-		int expected=-10;
+		int result=c.sub(10, 30);
+		int expected=-20;
 		assertEquals(expected, result);
 	}
 }
